@@ -5,13 +5,6 @@
 		header("location: signup.php");
 		exit();
 	} 
-
-	// $username = $_SESSION["username"];
-	// $connection = mysqli_connect("localhost", "root", "Cl0ver@mysql", "user_registration_system");
-
-	// $user_query = "select * from users where username = '$username'";
-	// $result = mysqli_query($connection, $user_query);
-	// $user = mysqli_fetch_assoc($result);
 ?>
 
 <!DOCTYPE html>
@@ -27,13 +20,6 @@
 	<span id = "welcome">Welcome</span>
 	<span id = "username"><?php echo " ".$_SESSION["username"]; ?></span>
 	<br><br><hr><br>
-
-	<!-- <p>
-		Name: <span class = "details"><?php echo $user["name"]; ?></span><br>
-		Email: <span class = "details"><?php echo $user["email"]; ?></span><br>
-		Phone: <span class = "details"><?php echo $user["phone"]; ?></span><br>
-		Address: <span class = "details"><?php echo $user["address"]; ?></span><br>
-	</p><br><br><hr><br> -->
 
 	<h2>Change Password</h2><hr><br>
 
