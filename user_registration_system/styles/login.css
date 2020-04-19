@@ -1,0 +1,58 @@
+body {
+	text-align: center;
+}
+
+#login {
+	color: green;
+	font-size: 40px;
+}
+
+#line1 {
+	width: 70%;
+}
+
+img {
+	width: 250px;
+}
+
+p {
+	color: red;
+}
+
+form {
+	margin-top: 30px;
+}
+
+input[type = text], input[type = password] {
+	width: 40%;
+	padding: 10px;
+	margin: 10px 0 30px 0px;
+	border-radius: 10px;
+	border: 1px solid #4ce600;
+}
+
+input[type = submit] {
+	width: 30%;
+  	background-color: green;
+  	border-radius: 10px;
+	color: white;
+	padding: 10px;
+	margin: 20px 0;
+	border: none;
+}
+
+#or {
+	font-size: 30px;
+}
+
+#signup {
+	font-size: 30px;
+	color: green;
+	margin-left: 20px;
+}
+
+#line2 {
+	width: 70%;
+	margin-bottom: 100px;
+}
+

@@ -1,0 +1,60 @@
+h1 {
+	font-size: 40px;
+	background-color: #b3ffb3;
+	padding: 30px 0 30px 10%;
+	border-radius: 50px;
+}
+
+h2 {
+	margin-left: 10%;
+	color: green;
+}
+
+p {
+	color: red;
+	margin-left: 10%;
+}
+
+form {
+	margin-left: 10%;
+}
+
+input[type = text], input[type = password], input[type = email] {
+	width: 40%;
+	padding: 10px;
+	margin: 10px 0 30px 0px;
+	border-radius: 10px;
+	border: 1px solid #4ce600;
+}
+
+input[type = submit] {
+  	width: 30%;
+  	background-color: green;
+  	border-radius: 10px;
+	color: white;
+	padding: 10px;
+	margin: 20px 0;
+	border: none;
+}
+
+#or {
+	font-size: 30px;
+	margin-left: 10%;
+}
+
+div {
+	margin-left: 10%;
+	margin-bottom: 100px;
+}
+
+#login {
+	font-size: 30px;
+	color: green;
+	margin-left: 20px;
+}
+
+#line {
+	width: 70%;
+	float: left;
+}
+
