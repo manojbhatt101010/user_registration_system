@@ -18,7 +18,7 @@
 		$password = correct($_POST["password"]);
 		$confirm_password = correct($_POST["confirm_password"]);
 
-		$connection = mysqli_connect("localhost", "root", "Cl0ver@mysql", "user_registration_system");
+		$connection = mysqli_connect("localhost", "root", "password", "user_registration_system");
 
 		$check_existing = "select * from users where username = '$username' or email = '$email'";
 		$result = mysqli_query($connection, $check_existing);
