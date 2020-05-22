@@ -34,7 +34,7 @@
 			exit();
 		}
 
-		$connection = mysqli_connect("localhost", "root", "Cl0ver@mysql", "user_registration_system");
+		$connection = mysqli_connect("localhost", "root", "password", "user_registration_system");
 
 		$change_password_query = "update users set password = '$new_password' where username = '$username'";
 
