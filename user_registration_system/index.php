@@ -2,7 +2,7 @@
 	
 	session_start();
 
-	$connection = mysqli_connect("localhost", "root", "Cl0ver@mysql");
+	$connection = mysqli_connect("localhost", "root", "password");
 
 	if(!connection) 
 		echo "Couldn't connect to database server.";
