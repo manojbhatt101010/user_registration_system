@@ -13,7 +13,7 @@
 		$username = correct($_POST["username"]);
 		$password = correct($_POST["password"]);
 
-		$connection = mysqli_connect("localhost", "root", "Cl0ver@mysql", "user_registration_system");
+		$connection = mysqli_connect("localhost", "root", "password", "user_registration_system");
 
 		$check_existing = "select * from users where (username = '$username' or email = '$username') and password = '$password'";
 
